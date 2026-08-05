@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+     >
+
+
+    
+    <title>How to Make a Violin</title>
+
+    <style>
+      body {
+        background-color: rgb(213 162 125);
+        font-family: Arial;
+        color: rgb(109 54 14);
+      }
+
+      h1 {
+        text-align: center;
+        color: rgb(96 44 6);
+      }
+
+      img {
+        width: 500px;
+        border: 10px solid rgb(242 107 10);
+        border-radius: 50px;
+      }
+
+      button {
+        background-color: rgb(135 18 18);
+        color: rgb(233 182 157);
+        padding: 8px 12px;
+        border: 4px solid rgb(242 107 10);
+        border-radius: 6px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: rgb(255 190 190);
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>How a Violin Is Made</h1>
+    <p>This website will teach you the basic steps of how a traditional violin is made.</p>
+
+    <br><br>
+
+    <img src="violin.jpg" alt="A handmade violin">
+
+    <br><br>
+
+    <h2>Tools You Will Need</h2>
+    <ul>
+      <li>Chisels</li>
+      <li>Small hand planes</li>
+      <li>Scrapers</li>
+      <li>Clamps</li>
+      <li>Saws</li>
+      <li>Sandpaper</li>
+    </ul>
+
+    <h2>Materials</h2>
+    <ul>
+      <li>Spruce (for the top)</li>
+      <li>Maple (for the back, sides, and neck)</li>
+      <li>Ebony (for the fingerboard)</li>
+      <li>Varnish</li>
+      <li>Strings, pegs, bridge, tailpiece</li>
+    </ul>
+
+    <h2>Steps to Make a Violin</h2>
+
+    <h3>1. Choosing the Wood</h3>
+    <p>Violins are made from spruce and maple. Luthiers choose wood that has been dried for years so it vibrates well.</p>
+
+    <h3>2. Shaping the Ribs</h3>
+    <p>Thin strips of maple are heated and bent around a mold. These curved pieces form the outline of the violin.</p>
+
+    <h3>3. Carving the Top and Back</h3>
+    <p>The front and back plates are carved into smooth arches. The inside is thinned carefully to help the violin vibrate properly.</p>
+
+    <h3>4. Cutting the F-Holes & Adding the Bass Bar</h3>
+    <p>The two f-shaped holes are cut into the top plate. Inside, a long wooden strip called the bass bar is added.</p>
+
+    <h3>5. Assembling the Body</h3>
+    <p>The ribs, top, and back are glued together to create the hollow body of the violin.</p>
+
+    <h3>6. Carving the Neck and Scroll</h3>
+    <p>The neck and scroll are carved from maple. The scroll is decorative but traditional.</p>
+
+    <h3>7. Adding the Fingerboard</h3>
+    <p>An ebony fingerboard is glued onto the neck because it is strong and smooth.</p>
+
+    <h3>8. Varnishing</h3>
+    <p>The violin is coated with thin layers of varnish to protect the wood and give it color.</p>
+
+    <h3>9. Final Setup</h3>
+    <p>The bridge, soundpost, pegs, strings, and tailpiece are added. Everything is adjusted so the violin sounds good.</p>
+
+    <br><br>
+
+    <button onclick="alert('You are learning how to make a violin!')">Click Me</button>
+
+    <br><br>
+
+    <button onclick="changeMessage()">Fun Fact</button>
+
+    <p id="message">Click the button to reveal.</p>
+
+    <script>
+      function changeMessage() {
+        document.getElementById("message").textContent =
+          "Fun Fact: A handmade violin can take over 200 hours to make!";
+      }
+    </script>
+
+  </body>
+
+</html>
